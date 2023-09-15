@@ -1,0 +1,1 @@
+scons platform=windows target=template_debug arch=x86_64 library_type=shared_library debug_symbols=yes vsproj=yes
