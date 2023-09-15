@@ -3,3 +3,4 @@
 Import("env")
 env_libgodot = env.Clone()
 env_libgodot.add_source_files(env.core_sources, "*.cpp")
+env_libgodot.Append(CPPPATH=["E:/projects/pragma/deps/godot/thirdparty/vulkan/","E:/projects/pragma/deps/godot/thirdparty/vulkan/include/","E:/projects/pragma/third_party_libs/gli/","E:/projects/pragma/third_party_libs/glm/"])
